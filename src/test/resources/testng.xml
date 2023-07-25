@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MainTest" parallel="false">
+
+    <test name="ProductGroup">
+
+        <classes>
+            <class name="ProductGroupTest">
+                <methods>
+                    <include name="priceTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
